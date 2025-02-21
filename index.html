@@ -3,57 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Instagran </title>
     <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/dcit-web.appspot.com/o/a2main.css.css?alt=media&token=372ab3f9-ae18-4058-83ce-2253593a0555">
-
     <style>
-    
-      
+        body {
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav {
+            display: inline-block;
+            background-color: white;
+            width: 100%;
+            height: 54px;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        #logo {
+            height: 40px;
+            position: relative;
+        }
+
+        #actions {
+            height: 40px;
+            position: relative;
+            float: right;
+        }
+
+        input {
+            height: 25px;
+            width: 30vw;
+            position: relative;
+            background-color: #fafafa;
+            border: 1px solid #b5b5b5;
+            border-radius: 3px;
+            text-align: center;
+        }
+
+        #stories {
+            height: 90px;
+            width: 70vw;
+            border: 1px solid #b5b5b5;
+            border-radius: 2px;
+            margin-top: -5px;
+            padding-left: 30px;
+            display: flex;
+        }
+
+        .user {
+            width: 18%;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .user img {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            border: 4px double #b5b5b5;
+            margin-top: 5px;
+        }
+
+        .user p {
+            font-family: "Lucida Sans Unicode";
+            font-weight: 100;
+            font-size: smaller;
+            margin: 0;
+        }
+
+        .post {
+            border: 1px solid #b5b5b5;
+            border-radius: 2px;
+            width: 560px;
+            height: 60vh;
+            margin: 10px 119px;
+        }
+
+        .post-header {
+            background-color: white;
+            height: 50px;
+            width: inherit;
+            border-bottom: 1px solid #b5b5b5;
+            padding: 5px;
+        }
+
+        .post-header img {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+        }
+        .post-image {
+            width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
     <nav>
-       
-        <img id="logo" src="img/instagran.png" alt="instagran logo" >
-    
-        <input type="text" placeholder="search"/>
-
-        <img id="actions" src="img/actions.png" alt="actions" >
+        <img id="logo" src="img/instagran.png" alt="instagran logo">
+        <input type="text" placeholder="search">
+        <img id="actions" src="img/actions.png" alt="actions">
     </nav>
-
     <section id="stories">
         <div class="user" id="mydiv">
-            <img src="img/gran1.jpg" >
-            <p class="userstory">Elma</p>
+            <img src="img/gran1.jpg">
+            <p class="userstory">
+                Elma
+            </p>
         </div>
         <div class="user">
-            <img src="img/gran2.jpg" >
-            <p class="userstory">Betty</p>
+            <img src="img/gran2.jpg">
+            <p class="userstory">
+                Betty
+            </p>
         </div>
         <div class="user">
-            <img src="img/gran3.jpg" >
-            <p class="userstory">Sandra</p>
+            <img src="img/gran3.jpg">
+            <p class="userstory">
+                Sandra
+            </p>
         </div>
         <div class="user">
-            <img src="img/gran4.jpg" >
-            <p class="userstory">Delores</p>
+            <img src="img/gran4.jpg">
+            <p class="userstory">
+                Delores
+            </p>
         </div>
-
         <div class="user">
-            <img src="img/gran5.jpg" >
-            <p class="userstory">Karen</p>
+            <img src="img/gran5.jpg">
+            <p class="userstory">
+                Karen
+            </p>
         </div>
     </section>
-
     <section class="post">
         <div class="post-header">
-            <img src="img/gran1.jpg"><span>Elma</span>
+            <img src="img/gran1.jpg">
+            <span>
+                Elma
+            </span>
         </div>
         <div>
-            <img class="post-image" src="https://www.placecage.com/g/512/512" alt="cage image">
+            <img class="post-image" src="https://images.squarespace-cdn.com/content/v1/583c906ebe659429d1106265/b0732ae0-7779-4812-9392-d045845ccb28/1255.jpeg?format=2500w" alt="cage image">
         </div>
     </section>
-
-    <footer></footer>
+    <footer>
+        
+    </footer>
 </body>
 </html>
